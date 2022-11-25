@@ -21,7 +21,7 @@ app.get('',(req,res)=>
     res.render('index',
     {
         'title':'Weather',
-        'name':'Sameer_Saurav'
+        'name':'Saurabh Ojha'
     });
 })
 app.get('/about',(req,res)=>
@@ -29,7 +29,7 @@ app.get('/about',(req,res)=>
     res.render('about',
     {
         'title':'About_Page',
-        'name':'Sammer_Saurav'
+        'name':'Saurabh Ojha'
     })
 })
 app.get('/help',(req,res)=>
@@ -37,7 +37,7 @@ app.get('/help',(req,res)=>
     res.render('help',
     {
         'title':'Help_Page',
-        'name':'Sameer_Saurav',
+        'name':'Saurabh Ojha',
         'help_text':'Go to Weather Page and enter the address and get your Rain-Check' 
 
     })
@@ -106,7 +106,7 @@ app.get('/help/*',(req,res)=>
    res.render('404',
     {
         'title':'Help Not Found',
-        'name':'Sameer_Saurav',
+        'name':'Saurabh Ojha',
         'errorMessage':'Help article not found'
     }
    )
@@ -116,7 +116,7 @@ app.get('*',(req,res)=>
     res.render('error',
     {
         'title':'Page not present',
-        'name':'Saurabh'
+        'name':'Saurabh Ojha'
     });
 })
 app.listen(port,()=>
